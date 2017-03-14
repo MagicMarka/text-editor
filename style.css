@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Montserrat|Playfair+Display');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #464f54;
+}
+.title {
+	background-color: #181818;
+	box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+	width: 70%;
+	margin: 3% 0 0 30%;
+	padding: 50px;
+	padding-right: 0;
+}
+.title p {
+	font-family: 'Montserrat', sans-serif;
+	color:  #767676;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.title h1 {
+	font-family: 'Playfair Display', serif;
+	color:  #fefefe;
+	font-size: 48px;
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+.title h1:after {
+	content: "|";
+	color: rgba(237, 239, 242, 0.71);
+	font-weight: 400;
+}
+.control-bar {
+	background-color:  #fbc02d;
+	box-shadow: -4px -4px 59px 0px rgba(0, 0, 0, 0.16);
+	width: 60%;
+	text-align: left;
+	margin: 0 0 0 40%;
+	padding: 20px 0 20px 40px;
+	overflow: hidden;
+}
+article {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+	width: 90%;
+	margin-top: -12%;
+	padding: 0 65px;
+	position: absolute;
+	left: 5%;
+	z-index: -1;
+}
+.wraper {
+	padding: 200px 60px 20px 60px;
+	border-left: 2px solid #e8eced;
+	height: 100%;
+}
+.date {
+	font-family: 'Montserrat', sans-serif;
+	color: #b4b4b4;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+article header {
+	margin-bottom: 50px;
+}
+article h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #2a2a2a;
+	font-size: 75px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+article h2 {
+	font-family: Georgia;
+	color:  #8f8f8f;
+	font-size: 30px;
+	font-style: italic;
+	text-align: justify;
+	font-weight: 400;
+}
+article p {
+	font-family: Georgia;
+	color:  #000000;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: justify;
+	padding-bottom: 20px;
+	line-height: 1.5;
+}
